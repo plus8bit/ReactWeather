@@ -1,10 +1,19 @@
 $space-large: 2.5rem;
 $title-color: #43E2DD;
+$logo-color: #CA3ABC;
+
+.top-bar, .top-bar ul {
+    background-color: #fefefe;
+}
 
 .page-title {
-  color: $title-color;
+  color: $logo-color;
   margin-top: $space-large;
   margin-bottom: $space-large;
+}
+
+.menu-text {
+  color: $logo-color;
 }
 
 input[type=search] {
